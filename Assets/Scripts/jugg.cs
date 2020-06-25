@@ -11,13 +11,13 @@ public class jugg : MonoBehaviour
       
         if (other.tag == "prueba")
         {
-                       other.GetComponentInParent<PickUpObjects>().ObjectToPickUp = this.gameObject;
+                       other.GetComponentInParent<corredor>().ObjectToPickUp = this.gameObject;
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if(other.tag == "prueba"){
+        if(other.tag == "Jugg"){
             //other.GetComponentInParent<jugg>()
 
                

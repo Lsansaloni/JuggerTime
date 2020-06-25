@@ -6,6 +6,9 @@ TagManager:
   tags:
   - QwikerHand
   - prueba
+  - Jugg
+  - LocalGoal
+  - VisitorGoal
   layers:
   - Default
   - TransparentFX
