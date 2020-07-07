@@ -28,14 +28,14 @@ public class GeneralController: MonoBehaviour
 
     public void PutPlayers()
     {
-        //Material
+        //LocalTeam(red)
         for (int i = 0; i < spawnLocalTeam.transform.childCount; i++)
            {
             Debug.Log(spawnLocalTeam.transform.GetChild(i).name);
             Instantiate(player, spawnLocalTeam.transform.GetChild(i).transform.position, spawnLocalTeam.transform.GetChild(i).transform.rotation);
                                  
         }
-
+        //VisitorTeam(blue)
         for (int i = 0; i < spawnVisitorTeam.transform.childCount; i++)
            {
             Debug.Log(spawnVisitorTeam.transform.GetChild(i).name);
